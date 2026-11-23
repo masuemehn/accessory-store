@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ماه‌رخ | فروشگاه اکسسوری</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">ماه‌رخ ✨</div>
+
+        <nav>
+            <a href="#">صفحه اصلی</a>
+            <a href="#">محصولات</a>
+            <a href="#">درباره ما</a>
+            <a href="#">تماس با ما</a>
+        </nav>
+        <button class="cart" id="cart-toggle">
+         🛍️ سبد خرید
+        <span id="cart-count">0</span>
+</button>
+       
+    </header>
+
+<section class="products">
+
+    <h2>محصولات پرفروش</h2>
+    <p>زیبایی را در جزئیات پیدا کن</p>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="images/necklace.jpg" alt="گردنبند">
+            <h3>گردنبند ظریف</h3>
+            <span>۴۵۰,۰۰۰ تومان</span>
+            <button>افزودن به سبد خرید</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/bracelet.jpg" alt="دستبند">
+            <h3>دستبند سنگی</h3>
+            <span>۳۵۰,۰۰۰ تومان</span>
+            <button>افزودن به سبد خرید</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/earring.jpg" alt="گوشواره">
+            <h3>گوشواره مرواریدی</h3>
+            <span>۲۹۰,۰۰۰ تومان</span>
+            <button>افزودن به سبد خرید</button>
+        </div>
+
+    </div>
+
+</section>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>زیبایی در جزئیات است</h1>
+                <p>خاص باش، متفاوت بدرخش.</p>
+                <button>مشاهده محصولات</button>
+            </div>
+        </section>
+    </main>
+
+<aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+        <h2>سبد خرید من 🛍️</h2>
+        <button id="close-cart">✕</button>
+    </div>
+
+    <div id="cart-items">
+        <p>سبد خرید شما خالی است.</p>
+    </div>
+
+    <div class="cart-footer">
+        <h3>مبلغ کل: <span id="total-price">۰</span> تومان</h3>
+        <button id="checkout">ثبت سفارش</button>
+    </div>
+</aside>
+    <script src="script.js"></script>
+</body>
+</html>
